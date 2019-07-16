@@ -9,7 +9,7 @@ app.listen(port, () => console.log(`Example app listening on port ${port}!`))
 const path = require('path');
 const router = express.Router();
 router.get('/', function (req, res) {
-res.sendFile(path.join(__dirname + '/index.html'));
+res.sendFile(path.join(__dirname + '/views/Park/Grid_Presentaion.html'));
 //__dirname : It will resolve to your project folder.
 });
 
